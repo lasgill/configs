@@ -1,0 +1,6 @@
+toggle-message-tray ['<Super>v', '<Super>m']
+open-application-menu ['<Super>F10']
+pause-resume-tweens []
+toggle-application-view ['<Super>a']
+focus-active-notification ['<Super>n']
+toggle-overview ['<Super>s']
