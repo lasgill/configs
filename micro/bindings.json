@@ -23,6 +23,8 @@
     "AltDown":          "CursorEnd",
     "AltShiftUp":       "SelectToStart",
     "AltShiftDown":     "SelectToEnd",
+    "CtrlHome":         "CursorStart",
+    "CtrlEnd":          "CursorEnd",
     "CtrlO":            "OpenFile",
     "CtrlS":            "Save",
     "CtrlF":            "Find",
@@ -36,6 +38,7 @@
     "CtrlD":            "DuplicateLine",
     "CtrlV":            "Paste",
     "CtrlA":            "SelectAll",
+    "CtrlT":            "AddTab",
     "CtrlTab":          "NextTab",
     "PageUp":           "CursorPageUp",
     "PageDown":         "CursorPageDown",
@@ -44,11 +47,10 @@
     "CtrlB":            "ShellMode",
     "CtrlQ":            "Quit",
     "CtrlE":            "CommandMode",
-    "CtrlW":            "NextSplit",
     "CtrlAltRight":     "VSplit",
     "CtrlAltLeft":      "HSplit",
     "CtrlK":            "command:comment",
-    "CtrlT":            "command:tree",
-    "CtrlR":            "command-edit:replace ",
-    "AltR":             "command-edit:replaceall "
+    "CtrlU":            "command:upper",
+    "CtrlL":            "command:lower",
+    "CtrlR":            "command-edit:replace "
 }
