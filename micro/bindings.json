@@ -45,7 +45,7 @@
     "CtrlH":            "ToggleHelp",
     "CtrlG":            "JumpLine",
     "CtrlB":            "ShellMode",
-    "CtrlQ":            "Quit",
+    "CtrlW":            "Quit",
     "CtrlE":            "CommandMode",
     "CtrlAltRight":     "VSplit",
     "CtrlAltLeft":      "HSplit",

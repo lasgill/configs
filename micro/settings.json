@@ -2,6 +2,15 @@
     "*.md": {
         "softwrap": true
     },
+    "*.vue": {
+        "filetype": "html"
+    },
+    "ft:python": {
+        "tabsize": 4
+    },
+    "ft:json": {
+        "tabsize": 4
+    },
     "autoclose": true,
     "autoindent": true,
     "autosave": false,
@@ -84,7 +93,7 @@
     "sucmd": "sudo",
     "syntax": true,
     "tabmovement": false,
-    "tabsize": 4,
+    "tabsize": 2,
     "tabstospaces": true,
     "termtitle": false,
     "tex-formatter": "",
