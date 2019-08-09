@@ -1,15 +1,12 @@
 {
-    "*.md": {
-        "softwrap": true
+    "*.launch": {
+        "filetype": "xml"
     },
     "*.vue": {
         "filetype": "html"
     },
-    "ft:python": {
-        "tabsize": 4
-    },
-    "ft:json": {
-        "tabsize": 4
+    "*.xacro": {
+        "filetype": "xml"
     },
     "autoclose": true,
     "autoindent": true,
@@ -19,7 +16,7 @@
     "c-formatter": "",
     "clojure-formatter": "",
     "coffeescript-formatter": "",
-    "colorcolumn": 101,
+    "colorcolumn": 80,
     "colorscheme": "gruvbox",
     "crystal-formatter": "",
     "csharp-formatter": "",
@@ -37,8 +34,15 @@
     "flow-formatter": "",
     "fmt-onsave": true,
     "fortran-formatter": "",
+    "ft:json": {
+        "tabsize": 4
+    },
     "ft:markdown": {
-        "softwrap": true
+        "softwrap": true,
+        "tabsize": 4
+    },
+    "ft:python": {
+        "tabsize": 4
     },
     "ftoptions": true,
     "go-formatter": "",
@@ -73,7 +77,7 @@
     "pluginrepos": [],
     "pug-formatter": "",
     "puppet-formatter": "",
-    "python-formatter": "",
+    "python-formatter": "yapf",
     "rmtrailingws": true,
     "ruby-formatter": "",
     "ruler": true,
